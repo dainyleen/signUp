@@ -54,9 +54,9 @@ input[type="checkbox"] {
 }
 
 select {
-  padding: 6px;
+  padding: 8px;
   height: 32px;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 button {
@@ -76,7 +76,7 @@ fieldset {
 
 legend {
   font-size: 1.4em;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 label {
@@ -87,6 +87,19 @@ label {
 label.light {
   font-weight: 300;
   display: inline;
+}
+
+.number {
+  background-color: lightseagreen;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
 }
 
 /* MEDIA QUERIES */

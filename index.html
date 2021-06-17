@@ -16,6 +16,8 @@
 
   <fieldset>
 
+    <legend><span class="number">1</span>Your Basic Info</legend>
+
     <label for="name">Name</label>
     <input type="text" id="name" name="user_name">
 
@@ -29,9 +31,22 @@
 
   <fieldset>
 
+    <legend><span class="number">2</span>Your Profile</legend>
+
     <label for="bio">Short Bio</label>
     <textarea id="bio" name="user_bio"></textarea>
-    
+
+    <label for="job">Job Role</label>
+    <select id-"job" name="user_job">
+      <option value="frontend">Front-End Developer</option>
+      <option value="backend">Back-End Developer</option>
+      <option value="fullstack">Full-Stack Developer</option>
+      <option value="ios_developer">iOS Developer</option>
+      <option value="android_developer">Android Developer</option>
+      <option value="ux">UX Designer</option>
+      <option value="ui">UI Designer</option> 
+    </select>
+
   </fieldset>
 
   <button type="submit">Sign Up</button>
