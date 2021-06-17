@@ -9,7 +9,7 @@ body {
 }
 
 form {
-  margin: 75px auto;
+  margin: 20px auto;
   max-width: 300px;
   padding: 50px 80px 50px 50px;
   background: #f4f7f8;
@@ -54,9 +54,9 @@ input[type="checkbox"] {
 }
 
 select {
-  padding: 6px;
+  padding: 8px;
   height: 32px;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 button {
@@ -67,5 +67,46 @@ button {
   border: 1px solid lightcoral;
   margin-bottom: 10px;
   box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1);
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: lightseagreen;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+  border-radius: 100%;
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 480px;
+  }
 }
 
