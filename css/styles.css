@@ -1,3 +1,38 @@
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+/* MAIN STYLES */
 body {
   background-color: lightcoral;
+  font-family: 'Nunito', sans-serif;
+}
+
+form {
+  margin: 85px auto;
+  max-width: 300px;
+  padding: 50px 25px;
+  background: #f4f7f8;
+  border-radius: 8px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255, 255, 255, 0.1);
 }
