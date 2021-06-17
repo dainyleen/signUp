@@ -1,2 +1,2 @@
 # Sign-Up
-Creating a simple HTML Form with CSS styling
+Creating a simple HTML5 Form with CSS3 styling
