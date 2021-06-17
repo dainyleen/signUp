@@ -1,2 +1,2 @@
-# web-form
+# Simple Form
 Creating HTML Form
